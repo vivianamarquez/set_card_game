@@ -1,0 +1,13 @@
+train: ../train/images
+val: ../valid/images
+test: ../test/images
+
+nc: 9
+names: ['0000', '0001', '0002', '0100', '0101', '0102', '0200', '0201', '0202']
+
+roboflow:
+  workspace: computer-vision-l7eal
+  project: set-card-detection
+  version: 1
+  license: CC BY 4.0
+  url: https://universe.roboflow.com/computer-vision-l7eal/set-card-detection/dataset/1
